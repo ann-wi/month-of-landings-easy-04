@@ -4,8 +4,8 @@
 и советы для создания хорошей фотографии.
 
 Технологии:
--HTML
--SCSS
--JavaScript
+- HTML
+- SCSS
+- JavaScript
 
 [GitHub Pages](https://ann-wi.github.io/month-of-landings-easy-04/)
