@@ -1,0 +1,20 @@
+.footer__copyright {
+  grid-area: copyright;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: 86px;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .footer__copyright {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .footer__copyright {
+    font-size: 12px;
+    margin-top: 40px;
+  }
+}

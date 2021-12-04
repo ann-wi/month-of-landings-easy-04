@@ -1,0 +1,25 @@
+.composition__rule {
+  line-height: $desktopTextLineHeight;
+  font-size: $desktopTextFontSize;
+  font-weight: $fontWeight;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .composition__rule {
+    padding: 30px 0 30px 0;
+    border-bottom: 1px solid #000;
+  }
+
+  .composition__rule:last-of-type {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .composition__rule {
+    line-height: $mobileTextLineHeight;
+    font-size: $mobileTextFontSize;
+    padding: 14px 0 14px 0;
+  }
+}

@@ -1,0 +1,28 @@
+.intro {
+  display: grid;
+  grid-template-areas:
+    "title pic"
+    "text pic"
+    "button pic";
+  box-sizing: border-box;
+  gap: 0 76px;
+  padding: $pagePaddingDesktop;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .intro {
+    padding: $pagePaddingTablet;
+    grid-template-areas:
+      "title"
+      "pic"
+      "text"
+      "button";
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .intro {
+    padding: $pagePaddingMobile;
+  }
+}

@@ -1,0 +1,9 @@
+.footer__arrow {
+  grid-area: arrow;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .footer__arrow {
+    display: none;
+  }
+}

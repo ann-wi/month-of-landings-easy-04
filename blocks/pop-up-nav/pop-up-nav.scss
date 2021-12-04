@@ -1,0 +1,21 @@
+.pop-up-nav {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  max-height: 84px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 30px 52px 30px 40px;
+  background-color: #df2626;
+  color: #fbfbfb;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .pop-up-nav {
+    min-height: 198px;
+    padding: 20px 20px 26px 20px;
+  }
+}

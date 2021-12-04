@@ -1,0 +1,33 @@
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: $fontWeight;
+  width: 228px;
+  height: 49px;
+  border: 2px solid #000;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  font-weight: bold;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .link {
+    width: 169px;
+    height: 40px;
+    font-size: 14px;
+  }
+}

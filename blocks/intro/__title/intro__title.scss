@@ -1,0 +1,15 @@
+.intro__title {
+  grid-area: title;
+  line-height: 110px;
+  font-size: 100px;
+  font-weight: $fontWeight;
+  max-width: 624px;
+  margin: 0;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .intro__title {
+    line-height: 56px;
+    font-size: 47px;
+  }
+}

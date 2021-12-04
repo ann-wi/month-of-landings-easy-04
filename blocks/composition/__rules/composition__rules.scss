@@ -1,0 +1,18 @@
+.composition__rules {
+  grid-area: rules;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 56px;
+  padding: 0;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .composition__rules {
+    flex-direction: column;
+    max-width: 688px;
+    gap: 0;
+    margin: 80px 0 0 0;
+  }
+}

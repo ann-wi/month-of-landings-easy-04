@@ -1,0 +1,17 @@
+.search__label {
+  grid-area: label;
+  line-height: $desktopTextLineHeight;
+  font-size: $desktopTextFontSize;
+  font-weight: $fontWeight;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .search__label {
+    line-height: $labelLineHeightMobile;
+    font-size: $labelFontSizeMobile;
+    padding-top: 20px;
+    border-top: 1px solid #000;
+  }
+}

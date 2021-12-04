@@ -1,0 +1,12 @@
+.pop-up-nav__logo {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .pop-up-nav__logo {
+    display: flex;
+    align-self: baseline;
+  }
+}
