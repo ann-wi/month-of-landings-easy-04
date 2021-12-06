@@ -8,6 +8,12 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: $tabletWidth) {
+  .camera__text {
+    margin: 60px 0 0 0;
+  }
+}
+
 @media screen and (max-width: $mobileWidth) {
   .camera__text {
     line-height: $labelLineHeightMobile;

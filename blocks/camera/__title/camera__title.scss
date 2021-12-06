@@ -9,6 +9,7 @@
 
 @media screen and (max-width: $mobileWidth) {
   .camera__title {
+    max-width: 243px;
     line-height: 50px;
     font-size: 48px;
   }

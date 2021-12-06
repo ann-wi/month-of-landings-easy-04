@@ -1,17 +1,20 @@
 .camera__picture {
   grid-area: pic;
   margin-left: auto;
+  object-position: top;
+  object-fit: cover;
 }
 
 @media screen and (max-width: $tabletWidth) {
   .camera__picture {
     max-width: $photoWidthTablet;
-    margin: 0;
+    margin: 60px 0 0 0;
   }
 }
 
 @media screen and (max-width: $mobileWidth) {
   .camera__picture {
-    max-width: $photoWidthMobile;
+    width: 280px;
+    max-height: 268px;
   }
 }

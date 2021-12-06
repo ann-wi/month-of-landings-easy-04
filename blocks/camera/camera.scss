@@ -8,6 +8,7 @@
   background-color: #000;
   color: #fff;
   padding: $pagePaddingDesktop;
+  grid-template-rows: 78px auto;
 }
 
 @media screen and (max-width: $tabletWidth) {
@@ -19,7 +20,8 @@
       "pic"
       "text"
       "reviews";
-    gap: 60px;
+
+    grid-template-rows: 68px auto;
   }
 }
 

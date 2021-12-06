@@ -6,6 +6,12 @@
 
 @media screen and (max-width: $tabletWidth) {
   .link_type_more {
-    margin: 0;
+    margin: 60px 0 0 0;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .link_type_more {
+    margin: 30px 0 0 0;
   }
 }
