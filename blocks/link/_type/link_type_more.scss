@@ -1,0 +1,11 @@
+.link_type_more {
+  grid-area: button;
+  border-radius: 30px;
+  margin-top: 170px;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .link_type_more {
+    margin: 0;
+  }
+}

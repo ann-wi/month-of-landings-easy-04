@@ -1,0 +1,10 @@
+.composition__text-block {
+  margin: 0;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .composition__text-block {
+    line-height: $mobileTextLineHeight;
+    font-size: $mobileTextFontSize;
+  }
+}

@@ -1,0 +1,17 @@
+.intro__picture {
+  grid-area: pic;
+  margin-left: auto;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .intro__picture {
+    max-width: $photoWidthTablet;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .intro__picture {
+    max-width: $photoWidthMobile;
+  }
+}

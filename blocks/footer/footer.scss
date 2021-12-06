@@ -1,0 +1,28 @@
+.footer {
+  display: grid;
+  grid-template-areas:
+    "arrow title"
+    ". form"
+    "copyright .";
+  grid-template-columns: max-content;
+  gap: 0 50px;
+  background-color: #df2626;
+  color: #fff;
+  padding: $pagePaddingDesktop;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .footer {
+    grid-template-areas:
+      "title"
+      "form"
+      "copyright";
+    padding: $pagePaddingTablet;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .footer {
+    padding: 40px 20px 20px 20px;
+  }
+}

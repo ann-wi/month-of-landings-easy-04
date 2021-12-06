@@ -1,0 +1,17 @@
+.composition__text {
+  grid-area: text;
+  line-height: $desktopTextLineHeight;
+  font-size: $desktopTextFontSize;
+  font-weight: $fontWeight;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .composition__text {
+    margin-top: 60px;
+    gap: 36px;
+  }
+}

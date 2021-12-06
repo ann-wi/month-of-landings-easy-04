@@ -1,0 +1,17 @@
+.camera__picture {
+  grid-area: pic;
+  margin-left: auto;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .camera__picture {
+    max-width: $photoWidthTablet;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .camera__picture {
+    max-width: $photoWidthMobile;
+  }
+}

@@ -1,0 +1,23 @@
+.search__text {
+  grid-area: text;
+  max-width: 380px;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: $fontWeight;
+  margin: 0;
+  padding-top: 24px;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .search__text {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .search__text {
+    line-height: $mobileTextLineHeight;
+    font-size: $mobileTextFontSize;
+    max-width: 280px;
+  }
+}

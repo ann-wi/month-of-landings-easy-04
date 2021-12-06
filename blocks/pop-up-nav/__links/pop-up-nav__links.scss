@@ -1,0 +1,17 @@
+.pop-up-nav__links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 40px;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .pop-up-nav__links {
+    flex-direction: column;
+    gap: 12px;
+    align-self: end;
+    align-items: center;
+  }
+}

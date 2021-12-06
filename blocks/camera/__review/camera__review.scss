@@ -1,0 +1,28 @@
+.camera__review {
+  line-height: 43px;
+  font-size: 43px;
+  font-weight: $fontWeight;
+  max-width: 497px;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .camera__review {
+    max-width: 526px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 60px;
+  }
+
+  .camera__review:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .camera__review {
+    line-height: 26px;
+    font-size: 24px;
+    max-width: 280px;
+    padding-bottom: 30px;
+  }
+}

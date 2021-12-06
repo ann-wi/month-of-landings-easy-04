@@ -1,0 +1,16 @@
+.search__picture {
+  grid-area: pic;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .search__picture {
+    max-width: $photoWidthTablet;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .search__picture {
+    max-width: $photoWidthMobile;
+  }
+}

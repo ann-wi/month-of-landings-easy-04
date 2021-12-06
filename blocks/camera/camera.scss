@@ -1,0 +1,30 @@
+.camera {
+  display: grid;
+  grid-template-areas:
+    "label pic"
+    "title pic"
+    "text pic"
+    "reviews reviews";
+  background-color: #000;
+  color: #fff;
+  padding: $pagePaddingDesktop;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .camera {
+    padding: $pagePaddingTablet;
+    grid-template-areas:
+      "label"
+      "title"
+      "pic"
+      "text"
+      "reviews";
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .camera {
+    padding: $pagePaddingMobile;
+  }
+}

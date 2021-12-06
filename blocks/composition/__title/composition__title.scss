@@ -1,0 +1,16 @@
+.composition__title {
+  grid-area: title;
+  line-height: 64px;
+  font-size: 64px;
+  font-weight: $fontWeight;
+  margin: 0;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .composition__title {
+    line-height: 38px;
+    font-size: 30px;
+    margin-top: 40px;
+    max-width: 403px;
+  }
+}

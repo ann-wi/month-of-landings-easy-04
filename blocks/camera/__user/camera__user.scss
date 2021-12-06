@@ -1,0 +1,13 @@
+.camera__user {
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: $fontWeight;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .camera__user {
+    line-height: 12px;
+    font-size: 12px;
+  }
+}

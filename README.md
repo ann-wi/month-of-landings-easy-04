@@ -1,1 +1,11 @@
-# month-of-landings-easy-04
+# Проект - Курс по фотографии (easy 04)
+
+Данный проект предлагает записаться на курсы по фотографии, предоставляет отзывы
+и советы для создания хорошей фотографии.
+
+Технологии:
+- HTML
+- SCSS
+- JavaScript
+
+[GitHub Pages](https://ann-wi.github.io/month-of-landings-easy-04/)

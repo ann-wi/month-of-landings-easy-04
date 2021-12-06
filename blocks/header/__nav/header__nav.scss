@@ -1,0 +1,13 @@
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .header__nav {
+    display: none;
+  }
+}

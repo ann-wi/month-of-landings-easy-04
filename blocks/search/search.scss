@@ -1,0 +1,29 @@
+.search {
+  display: grid;
+  grid-template-areas:
+    "label ."
+    "title ."
+    "pic text"
+    "pic button";
+  grid-template-columns: max-content;
+  gap: 0 312px;
+  padding: $pagePaddingDesktop;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .search {
+    padding: $pagePaddingTablet;
+    grid-template-areas:
+      "label"
+      "title"
+      "pic"
+      "text"
+      "button";
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .search {
+    padding: 40px 20px 40px 20px;
+  }
+}

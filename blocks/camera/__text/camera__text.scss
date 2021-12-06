@@ -1,0 +1,16 @@
+.camera__text {
+  grid-area: text;
+  line-height: $desktopTextLineHeight;
+  font-size: $desktopTextFontSize;
+  font-weight: $fontWeight;
+  align-self: end;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .camera__text {
+    line-height: $labelLineHeightMobile;
+    font-size: $labelFontSizeMobile;
+  }
+}

@@ -1,0 +1,17 @@
+.link_type_join {
+  border-radius: 30px;
+  grid-area: button;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .link_type_join {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .link_type_join {
+    margin-top: 30px;
+  }
+}

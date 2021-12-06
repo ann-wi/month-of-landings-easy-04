@@ -1,0 +1,18 @@
+.form {
+  grid-area: form;
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+}
+
+@media screen and (max-width: $tabletWidth) {
+  .form {
+    margin-top: 190px;
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .form {
+    margin-top: 200px;
+  }
+}
